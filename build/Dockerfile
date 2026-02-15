@@ -1,8 +1,7 @@
 FROM python:latest
 
-MAINTAINER Jean-Michel Ruiz <mail@coolcow.org>
-
 COPY servicesToSshConf.py /
+RUN chmod +x /servicesToSshConf.py
 
 WORKDIR /tmp
 
