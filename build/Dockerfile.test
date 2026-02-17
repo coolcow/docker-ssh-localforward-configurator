@@ -2,7 +2,7 @@
 
 # The application image to test is passed as a build argument.
 # The default value is for local testing.
-ARG APP_IMAGE=ghcr.io/coolcow/ssh-localforward-configurator:latest
+ARG APP_IMAGE=ghcr.io/coolcow/ssh-localforward-configurator:local-test-build
 FROM ${APP_IMAGE}
 
 # Run smoke tests directly inside the application image.
